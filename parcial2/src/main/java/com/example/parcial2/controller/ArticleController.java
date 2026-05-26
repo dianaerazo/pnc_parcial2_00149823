@@ -1,11 +1,9 @@
 package com.example.parcial2.controller;
 
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
-
 import com.example.parcial2.dto.request.ArticleRequest;
 import com.example.parcial2.dto.response.ArticleResponse;
 import com.example.parcial2.enums.MagicType;
+import com.example.parcial2.services.ArticleService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
